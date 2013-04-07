@@ -1,0 +1,15 @@
+div#user {
+	padding : 5px ;
+	margin-left : 15px ;
+	border : 1px #f5f5f5 solid ;
+}
+
+div#user:hover {
+	background : #f8f8f8 ;
+	border : 1px #e0e0e0 solid ;	
+}
+
+div#user div#fullname {
+	font-size : 16px ;
+	font-weight : bold ;
+}

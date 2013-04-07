@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>.: Documentacion :.</title>
+<link rel="stylesheet" type="text/css" href="coockdoc.css">
+</head>
+<body>
+<h2>Coockle Documentation</h2>
+<ul id="head">
+<li id="a"><a href="index.html">Inicio</a></li>
+<li id="a"><a href="bbdds.html">Base de Datos</a></li>
+<li id="a"><a href="resources.html">Recursos</a></li>
+<li id="a"><a href="vision.html">Vision General</a></li>
+</lu>
+<p><b>Tabla ingredients_galeries</b></p>
+<table>
+<tr>
+<td>Nombre del Campo</td>
+<td>Tipo del Campo</td>
+</tr>
+
+<tr>
+<td>id_ingredient_galery</td>
+<td>INT NOT NULL auto_increment PRIMARY KEY</td>
+</tr>
+<tr>
+<td>id_user</td>
+<td>INT NOT NULL</td>
+</tr>
+
+<tr>
+<td>ingredient_galery_title</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td>ingredient_galery_description</td>
+<td>VARCHAR(100) NOT NULL</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_user) REFERENCES users(id_user)</td>
+</tr>
+
+</table>
+<h3>References</h3>
+<ul><li><a href="tbusers.html">users</a></li></ul>
+<br><br>
+<p>NeoPathIC &copy; 2013 Todos los Derechos Reservados.</p>
+<br>
+</body>
+</html>

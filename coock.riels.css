@@ -1,0 +1,201 @@
+div#riels {
+	width : 100% ;
+	margin-left : 14% ;
+}
+div#riel-people {
+ 	width : 232px ;
+ 	float : left ;
+}
+
+div#riel-people div#rp-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-people div#rp-title:hover {
+	border-bottom: 2px #44f solid ;
+	cursor : hand ;
+}
+
+div#riel-ingresar {
+ 	width : 332px ;
+ 	float : left ;
+}
+
+div#riel-ingresar div#ri-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-ingresar div#ri-title:hover {
+	border-bottom: 2px #44f solid ;
+	cursor : hand ;
+}
+
+
+div#riel-ingresar div#ri-content #userbox {
+ width : 330px ;
+    -webkit-transition : background 0.3s linear ;
+    -moz-transition : background 0.3s linear ;
+}
+
+div#riel-login {
+	width : 540px ;
+	margin-left : 250px ;
+}
+
+div#riel-login div#log-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-login div#log-title:hover {
+	border-bottom: 2px #f4f solid ;
+	cursor : hand ;
+}
+div#riel-login div#log-content{
+	width : 640px ;
+}
+
+div#log-content input { padding : 5px ; width : 300px ;}
+div#log-content input[type=text], div#log-content input[type=password] { padding : 5px ; border : 1px black solid ;}
+
+
+div#riel-tpx {
+	width : 640px ;
+	margin-left : 150px ;
+}
+
+div#riel-tpx div#rtx-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-tpx div#rtx-title:hover {
+	border-bottom: 2px #f4f solid ;
+	cursor : hand ;
+}
+div#riel-tpx div#rtx-content{
+	width : 640px ;
+}
+
+div#riel-recipe {
+ 	width : 300px ;
+ 	clear : both ;
+ 	margin-left : -150px ;
+}
+
+div#riel-recipe div#rr-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-recipe div#rr-title:hover {
+	border-bottom: 2px #ff4 solid ;
+	cursor : hand ;
+}
+
+
+div#riel-account {
+ 	margin-left : 250px ;	
+ 	width : 400px ;
+ 	margin-top : -95px ;
+}
+
+div#riel-account div#ra-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-account div#ra-title:hover {
+	border-bottom: 2px #44f solid ;
+	cursor : hand ;
+}
+
+div#riel-reputation {
+ 	margin-left : 250px ;	
+ 	width : 400px ;
+}
+
+div#riel-reputation div#rd-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-reputation div#rd-title:hover {
+	border-bottom: 2px #44f solid ;
+	cursor : hand ;
+}
+
+div#riel-vtip {
+ 	margin-left : 250px ;	
+ 	width : 400px ;
+ 	margin-top : -95px ;
+
+}
+
+div#riel-vtip div#rv-title {
+	font-size : 20px ;
+	letter-spacing: 1px ;
+	padding : 4px;
+	border-bottom: 2px #777 solid ;
+}
+
+div#riel-vtip div#rv-title:hover {
+	border-bottom: 2px #44f solid ;
+	cursor : hand ;
+}
+
+#rv-content #tip_title {
+	font-size : 20px ;
+	font-weight : bold ;
+}
+
+#rv-content #tip_description {
+	padding : 10px ;
+}
+input#srch{
+	color : black ;
+	font-size : 14px ;
+	font-weight : bold ;
+	width : 600px ;
+	padding : 6px ;
+	border : 1px #f7f7f8 solid ;
+	margin-top : 5px ;
+	margin-bottom : 5px ;-
+}
+input#srch:hover {
+	color : white ;
+    background : #0064FF;	
+}
+div#widgt {
+	background : #f7f7f8 ;
+	border-radius: 4px ;
+	-webkit-transition : background 0.5s linear;
+}
+div#widgt:hover {
+	color : white ;
+    background : #0064FF;
+}
+div#widgt div#widgtitle {
+	padding : 8px ;
+	font-size : 14px ;
+	font-weight : bold ;
+}
+div#widgt div#widgtext {
+	padding : 14px ;
+}

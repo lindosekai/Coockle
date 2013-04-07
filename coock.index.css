@@ -1,0 +1,68 @@
+div#searchbox {
+	width : 100% ;
+	background : #f8f8f8 ;
+	-webkit-transition : background 0.2s linear ;
+}
+div#searchbox:hover {
+	background : #d0d0d0;
+}
+div#searchbox div#content {
+	width : 90% ;
+	margin-left : 5% ;
+	padding : 10px ;
+}
+div#searchbox div#content table {
+width : 60% ;
+margin-left : 15% ;
+}
+div#searchbox div#content table td#txt {
+	width : 50px ;
+}
+
+div#searchbox div#content table input[type="text"]{
+	width : 80% ;
+	border : 1px #f8f8f8 solid ;
+	padding : 8px ;
+}
+
+div#all {
+	width : 85% ;
+	margin-left : 3% ;
+}
+
+div#all div#leftbr {
+	width : 40% ;
+	margin-left : 10% ;
+	float : left ;
+}
+
+div#all div#leftbr div#container {
+	padding : 40px ;
+}
+div#all div#rightbr {
+	width : 40% ;
+	float : right ;
+	margin-right : 5px ;
+}
+
+ul#inopts {
+	float : right ;
+	list-style : none ;
+	margin-top : 6px ;
+}
+
+ul#inopts li {
+	display : inline ;
+	padding : 5px ;
+	background : #f8f8f8;
+	border-radius : 3px ;
+}
+ul#inopts li:hover {
+	background : #0064FF;
+}
+ul#inopts li a:link,ul#inopts li a:visited {
+	text-decoration: none ;
+}
+ul#inopts li:hover a:hover {
+	color : white ;
+}

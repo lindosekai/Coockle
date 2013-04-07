@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>.: Documentacion :.</title>
+<link rel="stylesheet" type="text/css" href="coockdoc.css">
+</head>
+<body>
+<div id="content">
+<h2>Coockle Documentation</h2>
+<ul id="head">
+<li id="a"><a href="index.html">Inicio</a></li>
+<li id="a"><a href="classes.html">Clases</a></li>
+<li id="a"><a href="bbdds.html">Base de Datos</a></li>
+<li id="a"><a href="resources.html">Recursos</a></li>
+<li id="a"><a href="vision.html">Vision General</a></li>
+</ul>
+<h3>class Database</h3>
+<p>Esta clase contiene la informacion necesaria para la conexion a base de datos.</p>
+<p>Esta alojada en el archivo : </p>
+<div id="file">CoockAPI/coock.database.php</div>
+<h3>Atributos</h3>
+<ul>
+	<li>host</li>
+	<li>user</li>
+	<li>password</li>
+	<li>database</li>
+</ul>
+<h4 id="at">host</h4>
+<p>Es el nombre del servidor en el que esta alojada la base de datos.</p>
+<h4 id="at">user</h4>
+<p>Es el nombre de usuario para conectarse al gestor base de datos.</p>
+<h4 id="at">password</h4>
+<p>Es la clave de usuario para conectarse al gestor base de datos.</p>
+<h4 id="at">database</h4>
+<p>Es la base de datos a la que se hara la peticion de datos.</p>
+<h3>Metodos</h3>
+<ul>
+	<li>Database</li>
+	<li>connect</li>
+	<li>query($sql)</li>
+	<li>insert($sql)</li>
+	<li>insert_id($sql)</li>
+</ul>
+<h4 id="me">Database</h4>
+<p>Es el constructor de la clase de conexion, al ser llamado inicializa las variables de conexion para tener acceso al servidor de base de datos para hacer las futuras peticiones.</p>
+<h4 id="me">connect > $con</h4>
+<p>Este metodo hace una conexion arbitraria a la base de datos y devuelve el identificador de conexion para futuras peticiones.</p>
+<h4 id="me">query($sql) > $query</h4>
+<p>Realiza una peticion $sql select directa al servidor de base de datos y si la peticion sale bien, la funcion devuelve un descriptor para hacer el recorrimiento de los resultados de la sentencia $sql select.</p>
+<h4 id="me">insert($sql)</h4>
+<p>Realiza  una sentencia $sql insert directa al servidor de base de datos, igual que la anterior la funcion connect esta inerita.</p>
+<h4 id="me">insert_id($sql)</h4>
+<p>Realiza  una sentencia $sql insert directa al servidor de base de datos, igual que la anterior la funcion connect esta inerita.Como resultado devuelve el <b>identificador</b> que se ha insertado en la base de datos.</p>
+<h3>Ejemplos</h3>
+<h4>Conexion Basica</h4>
+<pre id="xphp">
+	include("CoockAPI/coock.database.php");
+	$db = new Database();
+	$con = $db->connect(); // $con, contendra el contexto de la conexion a la base de datos
+</pre>
+<h4>Recorrido Basico</h4>
+<pre id="xphp">
+	include("CoockAPI/coock.database.php");
+	$db = new Database();
+	$q = $db->query("select * from users");
+	while($r = $q->fetch_array())
+	    print $r['username'];
+</pre>
+<h4>insercion Basica</h4>
+<pre id="xphp">
+	include("CoockAPI/coock.database.php");
+	$db = new Database();
+	$id = $db->insert("insert into user (username,password) value ('usuariox','passwordx')");
+	print $id;
+</pre>
+
+<br><br>
+<p>NeoPathIC &copy; 2013 Todos los Derechos Reservados.</p>
+
+<br>
+</body>
+</html>

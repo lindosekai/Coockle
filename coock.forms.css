@@ -1,0 +1,221 @@
+* { margin : 0px ; padding : 0px ;
+	font-size: 12px ;
+	font-family: helvetica;
+}
+
+#addtip {
+	padding : 3px ;
+}
+#addtip:hover {
+	color : white;
+	background : #222 ;
+}
+
+#topbar {
+position : absolute ;
+top : -1px;
+width : 100%;
+padding : 0px ;
+background : #0064FF;
+
+}
+
+#topbar .opt:hover {
+    background : #3B88FF;
+    cursor : hand ;
+}
+
+
+#topbar #tit {
+font-size : 24px ;
+color : white;
+font-weight : bold ;
+letter-spacing : 6px ;
+text-align : right ;
+margin-right : 30px ;
+}
+
+#topbar #tit:hover {
+	cursor : hand ;
+}
+
+#topbar .opt {
+float : left ;
+color : white ;
+width : 100px ;
+text-align : center ;
+padding :6px ;
+margin-top : 1px ;
+letter-spacing : 1px ;
+font-weight : bold ;
+-webkit-transition : background 0.3s linear;
+}
+
+
+#theform {
+	padding : 10px ;
+}
+#theform table tr td {
+	padding : 5px ;
+}
+#theform table {
+}
+#theform input[type=text],#theform textarea ,#theform input[type=password]{
+	border : 1px black solid ;
+	font-size : 12px;
+	padding : 5px ;
+}
+
+
+ ul#optx { 
+ 	list-style : none ; 
+ 	width : 300px;
+  	position : absolute ;
+  	right : 0px ;
+  	top : 29px ;
+  }
+ ul#optx li { padding : 5px ; 
+ 	background : #f8f8f8 ;
+ 	font-size : 16px ;
+ 	font-weight : bold ;
+ 	 }
+ ul#optx li span { margin-left : 30px ; }
+ ul#optx li:hover { background: #0064FF ;}
+ul#optx li a:hover { color : white ;}
+ul#special { list-style : none ; margin-left : 50px ; }
+ul#special li a:link,ul li a:visited { color : #000 ; text-decoration : none ;}
+
+
+div#panel { border : 2px #876a3a solid ;}
+div#panel #title{ background :  #876a3a ;}
+ ul#optx2 li {  padding : 5px ;}
+ ul#optx2 li span { margin-left : 0px ; }
+ ul#optx2 li:hover { background: #D0BB7D ;}
+ ul#optx2 { list-style : none ;}
+
+
+#userbox { 
+	margin-top : -12px ;
+ 	background : #f8f8f8;
+ 	width : 230px;
+ 	height : 24px ;
+ 	clear : both ;
+ 	border-radius : 2px ;
+
+ }
+#userbox:hover {
+	background : #0064FF;
+	color : white ;
+}
+
+#userbox #ub_head { padding : 5px ;
+ }
+#userbox #ub_head #name { 
+	font-size : 12px ;
+	font-weight : bold ;
+	letter-spacing: 0px ;
+}
+
+#userbox #ub_body  {
+	padding : 5px ;
+}
+#userbox #ub_body  #ctip {
+	font-size : 16px ;
+	font-weight: bold ;
+	float: left;
+	width : 30% ;
+	margin-left : 4%;
+	text-align : center;
+}
+
+#userbox #ub_body  #ctag {
+	font-size : 16px ;
+	font-weight: bold ;
+	float: left;
+	width : 30% ;
+	text-align : center;
+}
+
+#userbox #ub_body  #ccal {
+	font-size : 16px ;
+	font-weight: bold ;
+	float: left;
+	text-align : center;
+	width : 30%;
+}
+
+
+#options.publicate {
+	margin-left : 180px ;
+}
+
+#options #option { margin-top : 30px ;}
+#theform input[type=submit]{ padding :3px ; }
+section#all {width : 90%  ; margin-left :5% ; }
+#leftbr { width : 70% ; margin-left : 10px ; }
+#rightbr { width : 40% ; float : right ; margin-left : 5% ; }
+#footer { background : #ddd ; color : #333 ; text-align : center ; }
+#footer ul li { display : inline ; margin-left : 30px ; }
+#footer ul li a:visited, #footer ul li a:link { color : #0088bb ; text-decoration : none ; }
+#footer ul li a:hover { text-decoration : underline  ; }
+
+ol#ingredient_list { list-style : 1 ;}
+ol#ingredient_list li { padding:3px ;}
+ol#ingredient_list li input[type=text] { border : 1px black solid ; padding : 3px ; width : 400px ; }
+
+input#r_title { border : 1px #444 solid; padding : 5px ; width : 400px ; box-shadow : inset 0px -4px 2px #ddd ; }
+ol#process_list li textarea { border : 1px black solid ; padding : 3px ; width : 400px ; font-size : 12px; }
+
+#frm table tr td {
+	padding : 5px ;
+}
+
+#frm table tr td input[type="text"], #frm table tr td input[type="password"] {
+	border : 1px black solid;
+	padding : 5px ;
+	width : 200px ;
+}
+#frm table tr td input[type="submit"] {
+	padding : 4px ;
+}
+
+textarea#status { width : 90% ; 
+	height : 28px ;
+	padding : 5px ;
+	 }
+
+#searchx {
+	border : 1px black solid ;
+	padding : 3px ;
+}
+
+div#tipform {
+	width : 400px ;
+}
+div#tipform div#optx div#opt{
+	float : left ;
+	padding : 5px ;
+	letter-spacing: 3px ;
+}
+div#tipform div#optx .selected {
+	background : #aaa ;
+	font-weight : bold ;
+}
+
+div#tipform div#title input[type="text"]{
+	width : 400px ;
+	border : 1px black solid ;
+	padding : 5px ;
+}
+
+div#tipform div#text textarea {
+	width : 400px ;
+	height : 30px ;
+	padding : 5px ;
+	border-top : 1px white solid ;
+}
+
+div#tipform div#butt input[type="submit"] {
+	padding : 5px ;
+	float : right ;
+}

@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>.: Documentacion :.</title>
+<link rel="stylesheet" type="text/css" href="coockdoc.css">
+</head>
+<body>
+<h2>Coockle Documentation</h2>
+<ul id="head">
+<li id="a"><a href="index.html">Inicio</a></li>
+<li id="a"><a href="bbdds.html">Base de Datos</a></li>
+<li id="a"><a href="resources.html">Recursos</a></li>
+<li id="a"><a href="vision.html">Vision General</a></li>
+</lu>
+<p><b>Tabla ingredients</b></p>
+<p>A continuacion la table que almacenara la informacion de los usuarios solo para login.</p>
+<table>
+<tr>
+<td>Nombre del Campo</td>
+<td>Tipo del Campo</td>
+</tr>
+
+<tr>
+<td>id_ingredient</td>
+<td>INT NOT NULL auto_increment PRIMARY KEY</td>
+</tr>
+<tr>
+<td>ingredient_name</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td>ingredient_description</td>
+<td>VARCHAR(300) NOT NULL</td>
+</tr>
+<tr>
+<td>id_ingredient_type</td>
+<td>INT NOT NULL</td>
+</tr>
+
+<tr>
+<td>id_ingredient_galery</td>
+<td>INT NOT NULL</td>
+</tr>
+<tr>
+<td>id_ingredient_followers</td>
+<td>INT NOT NULL</td>
+</tr>
+<tr>
+<td>id_ingredient_vote</td>
+<td>INT NOT NULL</td>
+<tr>
+<td>id_ingredient_comments</td>
+<td>INT NOT NULL</td>
+<tr>
+<td>id_ingredient_qa</td>
+<td>INT NOT NULL</td>
+
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_user) REFERENCES users(id_user)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_type) REFERENCES ingredients_types(id_ingredient_type)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_galery) REFERENCES ingredients_galeries(id_ingredient_galery)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_followers) REFERENCES ingredients_followers(id_ingredient_followers)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_vote) REFERENCES ingredients_votes(id_ingredient_vote)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_comments) REFERENCES ingredients_comments(id_ingredient_comments)</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_ingredients_qa) REFERENCES ingredients_qa(id_ingredient_qa)</td>
+</tr>
+
+</table>
+<h3>References</h3>
+<ul>
+<li><a href="tbingredient_types.html">ingredient_types</a></li>
+<li><a href="tbingredients_galeries.html">ingredient_galeries</a></li>
+<li><a href="tbingredients_followers.html">ingredient_followers</a></li>
+<li><a href="">ingredient_votes</a></li>
+<li><a href="">ingredient_comments</a></li>
+<li><a href="">ingredient_qa</a></li>
+</ul>
+<br><br>
+<p>NeoPathIC &copy; 2013 Todos los Derechos Reservados.</p>
+<br>
+</body>
+</html>

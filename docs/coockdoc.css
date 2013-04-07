@@ -1,0 +1,86 @@
+
+
+#receta {
+width : 60% ;
+background : #ddd ;
+padding : 3px ;
+}
+
+#receta #title {
+color : maroon;
+font-weight : bold;
+font-size: 26px ;
+}
+#receta #metricas {
+float : left ;
+width : 5% ;
+padding : 5px;
+}
+
+#receta #data {
+width : 90%;
+float : right ;
+}
+#receta #data #descr {
+padding : 5px ;
+}
+#receta #data #date {
+text-align : right ;
+font-size : 12px ;
+margin-right : 20px ;
+}
+
+#receta #extras {
+margin-left : 80px ;
+}
+
+#receta #metricas * {
+padding : 5px ;
+}
+
+#receta #extras #steps,#receta #extras #comments,#receta #extras #followers,#receta #extras #author {
+float : left ;
+width : 100px ;
+}
+
+ul#head {
+list-style : none;
+}
+ul#head li#a {
+display : inline ;
+margin-left : 10px ;
+}
+div#tables {
+margin-left : 100px ;	
+}
+
+table , table tr td{
+border : 1px black solid;
+}
+hr {
+width : 80% ;
+}
+table tr td {
+padding : 3px ;
+}
+
+
+
+#content {
+	width : 80% ;
+	margin-left : 10%;
+}
+#at {color : maroon ;}
+#me {color : navy ;}
+pre#xphp { color : blue ; background : #eee ; border : 1px black dotted; padding : 5px ;}
+
+
+#file {
+	color : blue ;
+	background : #aaa;
+	width : 300px ;
+	padding : 3px ;
+	border : 1px black dashed ;
+	text-align : center;
+}
+

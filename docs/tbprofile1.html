@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>.: Documentacion :.</title>
+<link rel="stylesheet" type="text/css" href="coockdoc.css">
+</head>
+<body>
+<h2>Coockle Documentation</h2>
+<ul id="head">
+<li id="a"><a href="index.html">Inicio</a></li>
+<li id="a"><a href="bbdds.html">Base de Datos</a></li>
+<li id="a"><a href="resources.html">Recursos</a></li>
+<li id="a"><a href="vision.html">Vision General</a></li>
+</lu>
+<p><b>Tabla profile</b></p>
+<p>A continuacion la table que almacenara la informacion de los usuarios solo para login.</p>
+<table>
+<tr>
+<td>Nombre del Campo</td>
+<td>Tipo del Campo</td>
+</tr>
+
+<tr>
+<td>id_user</td>
+<td>INT NOT NULL</td>
+</tr>
+<tr>
+<td>name</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td>last_name</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td>email</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td>phone</td>
+<td>VARCHAR(30) NOT NULL</td>
+</tr>
+<tr>
+<td colspan=2>FOREIGN KEY (id_user) REFERENCES users(id_user)</td>
+</tr>
+
+</table>
+<br><br>
+<p>NeoPathIC &copy; 2013 Todos los Derechos Reservados.</p>
+<br>
+</body>
+</html>

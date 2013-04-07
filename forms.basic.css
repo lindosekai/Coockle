@@ -1,0 +1,29 @@
+#theform {
+	margin-left : 100px ;
+	border : 1px black solid ;
+	width : 70% ;
+	padding : 10px ;
+}
+#theform table tr td {
+	padding : 5px ;
+}
+#theform table {
+	width : 70% ;
+	margin-left : 15%;
+}
+#theform input[type=text],#theform textarea ,#theform input[type=password]{
+	border : 1px black solid ;
+	width : 80% ;
+	background : #434343 ;
+	color : white;
+	font-size : 18px;
+	font-weight : bold ;
+	padding : 10px ;
+	border-radius : 5px ;
+	letter-spacing: 3px ;
+}
+
+#theform textarea {
+	height : 200px ;
+}
+#theform input[type=submit]{ padding : 10px ; width : 80% ;}

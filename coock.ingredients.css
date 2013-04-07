@@ -1,0 +1,40 @@
+
+div#search {
+	padding : 20px ;
+}
+
+div#search input[type='text'] { border : 1px black solid; padding : 5px ; width : 40% ; }
+
+div#ingredients { 
+	width : 70% ;  
+	border-bottom : 1px #555 solid ;
+	}
+
+div#ingredients div#ingredient {
+	background : #fbfbfb	 ;
+	padding : 10px ;
+	border-bottom : 1px #333 solid ;
+}
+
+div#ingredients div#ingredient:hover {
+	background : #f0f0f0	 ;	
+}
+
+
+div#ingredients div#ingredient div#ing_name a:link ,div#ingredients div#ingredient div#ing_name a:visited {
+text-decoration : none ;
+color : maroon ;
+font-size : 18px ;
+font-weight : bold ;
+}
+
+
+ul#ing { list-style : none ; }
+ul#ing li { display : inline ; margin-left : 20px ;}
+ul#ing li a:link, ul#ing li a:visited { color : blue; text-decoration : none ; }
+input#comment_tx { border : 1px black solid; padding : 10px ; width : 310px ;}
+div#ingredient_desc { width : 60% ; }
+div#item_comment { padding : 5px;  width : 300px ; }
+div#item_comment:hover { background : #434343 ; color : white ;}
+
+
